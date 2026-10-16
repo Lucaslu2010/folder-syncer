@@ -1,5 +1,7 @@
 # LAN Folder Syncer
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 A small desktop app for sending a folder from one computer to another over the local network. Run it on both computers, choose the network adapter and folder on each, then click **Sync →** on the sender.
 
 **The receiving folder's existing contents are deleted and replaced with the incoming contents.** Each transfer is a one-way snapshot, with no file merging or continuous background synchronization.
@@ -93,6 +95,25 @@ py -m PyInstaller --onefile --windowed folder_syncer.py
 ```
 
 The executable is created under `dist\` and can be copied to another compatible Windows computer. Firewall access still needs to be allowed for that executable.
+
+## License
+
+Copyright © 2026 Lucaslu2010, for original contributions.
+
+Except for third-party material and files with a separate license notice, the
+original project source code and documentation are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+See [LICENSE](LICENSE) for the full legal text.
+
+You may share and adapt the covered material for noncommercial purposes, provided
+you give appropriate credit, link to the license, and indicate changes. Commercial
+uses requiring permission under copyright are not granted by this license; seek
+separate permission from the relevant rights holder. The full license, including
+its exceptions and limitations, governs.
+
+Third-party code, assets, and dependencies retain their own licenses. This notice
+does not replace those licenses or restrict rights they independently grant.
 
 ## Acknowledgments
 
